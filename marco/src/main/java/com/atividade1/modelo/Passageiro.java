@@ -31,13 +31,6 @@ public class Passageiro {
         this.cpf = cpf;
     }
 
-    public void solicitarDados() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o nome do passageiro:");
-        coletaNome(scanner);
-        System.out.println("Digite o CPF do passageiro:");
-        coletaCpf(scanner);
-        scanner.close();
-    }
+
 }
 
