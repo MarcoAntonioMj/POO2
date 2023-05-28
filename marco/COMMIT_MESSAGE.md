@@ -1,49 +1,51 @@
-feat : iniciando projeto exerc 1
+### feat: Iniciando projeto - Exercício 1
 
-Criando projeto maven para a primeira atividade
+Neste commit, iniciei um novo projeto Maven para a primeira atividade.
 
-feat : novas classes
-nesse commit criei uma nova pasta chamada model e add as 3 classes do programa
+### feat: Novas classes
 
-feat : Adicionando classes no Passgaeiro
-Criei novas classes no arquivo passageiro coleta nome e coleta idade
+Neste commit, adicionei uma nova pasta chamada "model" e incluí as três classes do programa.
 
-feat : Adicionando classes no Voo
-Add novas  variaveis classe voo
-    private int numero;
-    private String origem;
-    private String destino;
-    private int capacidade;
+### feat: Adicionando métodos na classe Passageiro
 
-feat : arrumando logica classe pesso e voo
+Neste commit, adicionei novos métodos à classe Passageiro para coletar o nome e a idade do passageiro.
 
-criei get e settes para as classes
+### feat: Adicionando variáveis na classe Voo
 
+Neste commit, adicionei novas variáveis à classe Voo:
 
+- private int numero;
+- private String origem;
+- private String destino;
+- private int capacidade;
 
-feat : Criando classe Reserva
-foi criado a classe reserva com seus get e setters correspondente.
+### feat: Arrumando lógica nas classes Passageiro e Voo
 
+Neste commit, adicionei os getters e setters necessários às classes Passageiro e Voo.
 
-Feat : começando classe principal SistemaDeReserv
-Nos três primeiros passos, eu criei a classe SistemaDeReservas no pacote com.atividade1. Em seguida, declarei três variáveis de instância: voos, passageiros e reservas. Essas variáveis são listas do tipo ArrayList, que serão usadas para armazenar os objetos de voos, passageiros e reservas.
+### feat: Criando classe Reserva
 
-Além disso, implementei um construtor padrão para a classe SistemaDeReservas, onde as listas foram inicializadas com objetos ArrayList.
+Neste commit, criei a classe Reserva e adicionei seus respectivos getters e setters.
 
-Agora posso prosseguir com os próximos passos, que envolvem a implementação dos métodos necessários na classe SistemaDeReservas para cadastrar voos, cadastrar passageiros, realizar reservas, cancelar reservas e consultar disponibilidade.
+### feat: Começando classe principal - SistemaDeReservas
 
-Refactor : excluido classe desnce Passageiros :
-Retirei a classe Solicitardados ja que ela não vai ser usada agora.
+Neste commit, iniciei a implementação da classe principal SistemaDeReservas. Foram adicionadas as variáveis de instância voos, passageiros e reservas. Além disso, implementei o construtor padrão que inicializa as listas com objetos do tipo ArrayList.
 
+Agora, posso prosseguir com os próximos passos, que envolvem a implementação dos métodos necessários na classe SistemaDeReservas para cadastrar voos, cadastrar passageiros, realizar reservas, cancelar reservas e consultar disponibilidade.
 
-Feat : add novos metodos na classe Sistema de reservas :
-Eu adicionei os seguintes métodos à classe SistemaDeReservas:
+### refactor: Excluída classe desnecessária - Passageiros
 
-cadastrarVoo(Voo voo): Este método recebe um objeto do tipo Voo como parâmetro e o adiciona à lista de voos (voos).
-cadastrarPassageiro(Passageiro passageiro): Este método recebe um objeto do tipo Passageiro como parâmetro e o adiciona à lista de passageiros (passageiros).
-realizarReserva(Reserva reserva): Este método recebe um objeto do tipo Reserva como parâmetro e o adiciona à lista de reservas (reservas).
-cancelarReserva(Reserva reserva): Este método recebe um objeto do tipo Reserva como parâmetro e o remove da lista de reservas (reservas).
-consultarDisponibilidade(Voo voo): Este método recebe um objeto do tipo Voo como parâmetro. Ele verifica a disponibilidade com base nas reservas existentes para o voo fornecido. Ele retorna true se houver lugares disponíveis e false caso contrário.
-Esses métodos adicionados permitem cadastrar voos, cadastrar passageiros, realizar reservas, cancelar reservas e consultar a disponibilidade de voos com base nas reservas existentes.
+Neste commit, removi a classe SolicitarDados, pois ela não será usada no momento.
+
+### feat: Adicionando novos métodos na classe SistemaDeReservas
+
+Neste commit, adicionei os seguintes métodos à classe SistemaDeReservas:
+
+- cadastrarVoo(Voo voo): Este método recebe um objeto do tipo Voo como parâmetro e o adiciona à lista de voos (voos).
+- cadastrarPassageiro(Passageiro passageiro): Este método recebe um objeto do tipo Passageiro como parâmetro e o adiciona à lista de passageiros (passageiros).
+- realizarReserva(Reserva reserva): Este método recebe um objeto do tipo Reserva como parâmetro e o adiciona à lista de reservas (reservas).
+- cancelarReserva(Reserva reserva): Este método recebe um objeto do tipo Reserva como parâmetro e o remove da lista de reservas (reservas).
+- consultarDisponibilidade(Voo voo): Este método recebe um objeto do tipo Voo como parâmetro. Ele verifica a disponibilidade com base nas reservas existentes para o voo fornecido. - Retorna true se houver lugares disponíveis e false caso contrário.
+- Esses métodos adicionados permitem cadastrar voos, cadastrar passageiros, realizar reservas, cancelar reservas e consultar a disponibilidade de voos com base nas reservas - - existentes.
 
 A classe SistemaDeReservas está pronta para ser utilizada para manipular os voos, passageiros e reservas. Certifique-se de chamar esses métodos com os objetos corretos para realizar as operações desejadas.
