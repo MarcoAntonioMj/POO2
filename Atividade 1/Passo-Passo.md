@@ -21,9 +21,13 @@ O projeto está estruturado da seguinte forma:
 
 ## Uso do Projeto
 Inicie o projeto Maven.
+
 Utilize os métodos da classe SistemaDeReservas para interagir com o sistema.
+
 Certifique-se de passar os objetos corretos como parâmetros para os métodos desejados.
+
 As saídas dos métodos foram adicionadas para fornecer informações relevantes durante a execução.
+
 Certifique-se de seguir a ordem correta para utilizar as funcionalidades do sistema. É recomendado revisar os commits anteriores para entender as etapas de desenvolvimento do projeto.
 
 Observação: A classe SolicitarDados foi removida no último commit, pois não é mais necessária no momento.
