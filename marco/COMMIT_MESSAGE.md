@@ -14,3 +14,8 @@ Add novas  variaveis classe voo
     private String origem;
     private String destino;
     private int capacidade;
+
+Criano classe reserva :
+foi criado a classe reserva com seus get e setters correspondente.
+
+

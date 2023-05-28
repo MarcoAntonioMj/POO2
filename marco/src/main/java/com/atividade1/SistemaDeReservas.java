@@ -1,17 +1,21 @@
 package com.atividade1;
 
-/**
- * Hello world!
- */
+import java.util.ArrayList;
+import java.util.List;
+
+import com.atividade1.modelo.Passageiro;
+import com.atividade1.modelo.Reserva;
+import com.atividade1.modelo.Voo;
+
 public final class SistemaDeReservas {
-    private SistemaDeReservas() {
+    private List<Voo> voos;
+    private List<Passageiro> passageiros;
+    private List<Reserva> reservas;
+
+    public SistemaDeReservas() {
+        voos = new ArrayList<>();
+        passageiros = new ArrayList<>();
+        reservas = new ArrayList<>();
     }
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
 }
