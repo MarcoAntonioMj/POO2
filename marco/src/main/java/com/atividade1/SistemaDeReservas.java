@@ -19,15 +19,21 @@ public final class SistemaDeReservas {
     }
     public void cadastrarVoo(Voo voo) {
         voos.add(voo);
+        System.out.println("Voo cadastrado com sucesso!");
     }
     public void cadastrarPassageiro(Passageiro passageiro) {
         passageiros.add(passageiro);
+        System.out.println("Passageiro cadastrado com sucesso!");
     }
     public void realizarReserva(Reserva reserva) {
         reservas.add(reserva);
+        System.out.println("Reserva realizada com sucesso!");
+
     }
     public void cancelarReserva(Reserva reserva) {
         reservas.remove(reserva);
+        System.out.println("Reserva cancelada com sucesso!");
+
     }
     public boolean consultarDisponibilidade(Voo voo) {
         int capacidade = voo.getCapacidade();
@@ -41,8 +47,10 @@ public final class SistemaDeReservas {
 
         int disponibilidade = capacidade - reservasExistentes;
 
+        System.out.println("Disponibilidade de assentos: " + disponibilidade);
         return disponibilidade > 0;
     }
+
 
 
 }
