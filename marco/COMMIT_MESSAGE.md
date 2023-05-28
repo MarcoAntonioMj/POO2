@@ -49,3 +49,7 @@ Neste commit, adicionei os seguintes métodos à classe SistemaDeReservas:
 - Esses métodos adicionados permitem cadastrar voos, cadastrar passageiros, realizar reservas, cancelar reservas e consultar a disponibilidade de voos com base nas reservas - - existentes.
 
 A classe SistemaDeReservas está pronta para ser utilizada para manipular os voos, passageiros e reservas. Certifique-se de chamar esses métodos com os objetos corretos para realizar as operações desejadas.
+
+
+## refactor : add mensagem de saidas nos metodos
+Refatoração do código para melhor legibilidade e modularidade.
