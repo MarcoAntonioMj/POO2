@@ -12,6 +12,9 @@ O exercício "Sistema de Reservas de Voo" consiste em desenvolver um sistema que
 - Reserva: representa uma reserva de voo e contém os atributos voo, passageiro e assento.
 - SistemaDeReservas: classe principal do sistema, que contém uma lista de voos, uma lista de passageiros e uma lista de reservas. Essa classe possui os métodos para cadastrar voos, - cadastrar passageiros, realizar reservas, cancelar reservas e consultar disponibilidade.
 
+O exercicio 1 esta disponivel aqui [clique aqui](https://github.com/MarcoAntonioMj/POO2/blob/main/Atividade%201/Passo-Passo.md)
+Um arquivo readme com os commits feito nele esta aqui [clique aqui](https://github.com/MarcoAntonioMj/POO2/blob/main/Atividade%201/COMMIT_MESSAGE.md)
+
 ## Exercício 2: Sistema de Biblioteca
 O exercício "Sistema de Biblioteca" tem como objetivo desenvolver um sistema que permita cadastrar livros, registrar empréstimos, devoluções e consultar o acervo. O sistema é composto pelas seguintes classes:
 
